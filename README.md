@@ -33,7 +33,3 @@ the directions are reversed.
 ## Documentation
 
 See [Documentation](./Documentation/README.md).
-
-## Issues
-
-While developing this, I was using o-rings from an old assortment kit from harbor freight. However, in prepraration for release, I ordered a set of #211 o-rings and they seem to have a larger cross section than my harbor freight ones (which are likely smaller than spec size)...more than the little amount of tensioning in the sliding drive wheel can accommodate. As a result, the tension with these new o-rings is quite a bit higher than my other ones. So there may need to be some tweaks to the tension arm to work with these o-rings.

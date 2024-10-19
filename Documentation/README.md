@@ -22,6 +22,7 @@
 | [Tension Arm Left](./STL/Tension%20Arm%20Left.stl) | 1 | |
 | [Tension Arm Right](./STL/Tension%20Arm%20Right.stl) | 1 | |
 | [Tension nut](./STL/Tension%20nut.stl) | 1 | |
+| [PTFE Feeder](./STL/PTFE%20Feeder.stl) | 1 | |
 
 ### Hardware
 
@@ -40,6 +41,7 @@
 | M3 x 30mm Socket head cap screw | 1 | Tension screw |
 | One-way bearing | 1 | 8mm bore, 12mm Length, 14mm Diameter, Octagon shape |
 | 8mm x 80mm metal rod | 1 | Main shaft for respooler |
+| 40mm PTFE tube | 1 | 4mm OD x 2.5mm or 3mm ID |
 
 > [!NOTE]
 > The above BOM includes the hardware needed for the spool holder frame from the original project.
@@ -52,15 +54,23 @@ First assemble the spool holder frame and rear cylinder (minus the spring coil) 
 
 ### Re-spooler
 
-1. Insert heat set inserts ([1 in tension nut, 2 in tension arm, and 1 in side of frame](./heat%20set%20inserts.jpg), [1 in bottom of frame](./heat%20set%20inserts%202.jpg))
-2. Assemble ECAS04 Collets, remove the rubber seal (it won't be used). I find it easiest to install the latch (typically blue in most ECAS) by placing the body in the tension arm, then close up the tension arm and use it as a tool to grip the ECAS body and press the latch in. Then take it out and do the other one. See [this](./tension%20arm%20as%20ecas%20tool.jpg) photo.
+1. Insert heat set inserts (1 in tension nut, 2 in tension arm, and 1 in side of frame, 1 in bottom of frame)
+   ![tension arm heat inserts](./v15_beta/tension_arm_outsides.jpg)
+   ![frame heat insert](./heat%20set%20inserts%202.jpg)
+2. Assemble ECAS04 Collets, remove the rubber seal (it won't be used). I find it easiest to install the latch (typically blue in most ECAS) by placing the body in the tension arm, then close up the tension arm and use it as a tool to grip the ECAS body and press the latch in. Then take it out and do the other one. 
+![tension arm as ecas tool](./tension%20arm%20as%20ecas%20tool.jpg)
 3. Assemble the drive wheel (see [image](./drive%20wheel%20assembly.jpg)). Insert 608 bearing into drive wheel, then insert drive wheel adapter to the center of the 608 bearing. Note this adapter is slotted. This allows the drive wheel to slide back and forth as part of the tensioning mechanism.
-4. Add idle bearing, drive wheel, and ECAS collets to the tension arm. The idle bearing can use either a 625 bearing directly, or an R4 bearing with the small adapter ring. Finish up the tension arm by putting the 2 halves together and fasten with 2 12mm screws. See [image](./tension%20arm%20assembly.jpg)
+   ![drive wheel](./drive%20wheel%20assembly.jpg)
+4. Add idle bearing, drive wheel, and ECAS collets to the tension arm. The idle bearing can use either a 625 bearing directly, or an R4 bearing with the small adapter ring. Finish up the tension arm by putting the 2 halves together and fasten with 2 12mm screws. See [this](./tension%20arm%20assembly.jpg) photo of an earlier revision that shows the R4 bearing with the adapter (thin red part in middle of the bearing)
+![tension arm with hardware](./v15_beta/tension_arm_with_hardware.jpg)
+![tension arm assembled](./v15_beta/tension_arm_assembled.jpg)
 5. Insert the tension nut into the slot in the re-spooler frame, followed by the spring. It is recommened the heat insert is toward the back of the respooler, so the tension screw is pulling it through the tension nut, not out of it. See [image](./tension%20nut%20and%20spring.jpg).
-6. Insert one way bearing into the "Roller Grip" and slide it onto the 8mm shaft. Then figure out which way it spins freely and which way it locks. When looking at the left side of the respooler, you want it to lock when spinning clockwise and it should spin freely when going counter clockwise.
+6. Insert one way bearing into the "Roller Grip" and slide it onto the 8mm shaft. Then figure out which way it spins freely and which way it locks. When looking at the left side of the respooler, you want it to lock when spinning clockwise and it should spin freely when going counter clockwise. The following photo shows the orientation of the bearing relative to the frame (note the arrow on the one way bearing)
+![bearing direction](./v15_beta/frame_and_one_way_bearing_direction.jpg)
 7. Insert 1 608 bearing into the respooler frame, followed by the shaft with the one way bearing, and finally the last 608 bearing.
 8. Assemble the roller drums. These are slightly tapered in an attempt to help keep the spool from wandering (though it didn't really help). Slide the TPU sleeve onto the roller drum then screw on the inner shoulder. Finally slide them onto either end of the shaft. Make sure they aren't pinching the frame or friction will be too much.
-9. Place the tension arm into place and put 25mm screw through the pivot hole.
-10. Install tension screw just above the pivot, back through the spring and into the tension nut. Optionally you can toss an M3 washer on this tension spring for better distribution of load.
-11. Slide the sled into the spool holder frame and attach the cross member pieces using 8mm screws. See [image](./sled%20and%20cross%20member%20pieces.jpg).
+9. Place the tension arm into place and put 25mm screw through the pivot hole on the top
+10. Install tension screw from the front-bottom of the tension arm, back through the spring and into the tension nut. Optionally you can toss an M3 washer on this tension spring for better distribution of load.
+11. Slide the sled into the spool holder frame and attach the cross member pieces using 8mm screws. 
+   ![image](./v15_beta/spool_holder.jpg)
 12. Slide the respooler in from the front and insert 6mm srew in the bottom to lock it into place. See [image](./final%20lock%20screw.jpg)
