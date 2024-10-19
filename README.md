@@ -33,3 +33,7 @@ the directions are reversed.
 ## Documentation
 
 See [Documentation](./Documentation/README.md).
+
+## Potential issues
+
+I think the main potential issue I imagine running into with this is perhaps the longevity of the o-rings. I don't think tension on the filament when the wind is tight is enough to completely disengage the o-rings, so I suspect the filament drags across the o-rings and will slowly wear them out.

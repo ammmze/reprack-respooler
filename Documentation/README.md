@@ -24,6 +24,13 @@
 | [Tension nut](./STL/Tension%20nut.stl) | 1 | |
 | [PTFE Feeder](./STL/PTFE%20Feeder.stl) | 1 | |
 
+> [!NOTE]
+> My parts are currently printed with PLA using the following settings:
+> * 0.2mm layer height
+> * 0.4mm nozzle
+> * 2 walls
+> * 15% infill
+
 ### Hardware
 
 | Name | Quantity | Notes |
